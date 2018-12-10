@@ -2,7 +2,8 @@
     <div class="opponent row">
        <div class="col-3" v-for="hand in opponent">
         <div class="opponent" v-if="opponent">
-          <img v-if="!opponent.visible" src="@/assets/cardBack2.png" class="cardBack">
+          <!-- <img v-if="!opponent.visible" src="@/assets/cardBack2.png" class="cardBack">
+          <img v-else="opponent.visible" :src="opponent.img"> -->
           </div>
         </div>
     </div>
